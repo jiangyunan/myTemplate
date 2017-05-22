@@ -1,0 +1,15 @@
+{
+    "name": "jiang/mini",
+    "authors": [
+        {
+            "name": "jiangyunan",
+            "email": "jiangyunan@carnoc.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+	    "psr-4": {
+		    "MINI\\": "src/"
+		}
+	}
+}
