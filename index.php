@@ -11,7 +11,7 @@ if (!isset($_GET['method']) || !isset($_GET['controller'])) {
 $method = $_GET['method'];
 $controller = $_GET['controller'];
 
-$className = '\\DevManage\\Controller\\' . ucwords($controller);
+$className = '\\Mini\\Controller\\' . ucwords($controller);
 if (!class_exists($className)) {
     header("HTTP/1.0 404 Not Found");
     exit('no class');
